@@ -2,7 +2,7 @@
 
 ⇒ So we will be learning about how to abuse **`Child ↔ Parent`** domain trusts relationship for privilege escalation from **`Domain Admin`** ( in child domain ) to **`Enterprise Admin`** in the forest.
 
-- Refer to Child Domain lab Setup guide to setup the environment required for this attack
+- Refer to [Child Domain lab Setup](../Lab%20Creation/Child%20Domain%20Lab%20Setup.md) guide to setup the environment required for this attack
 
 ⇒ So if we compromise a **`child domain`** and get the **`krbtgt`** hash of a **`child domain`** and the **`Enterpise Admin`** SID that is **`[ParentDomainSID]-519`** . We can then craft a golden ticket using the info with mimikatz and get **`Enterprise Admin`** on the **`parent domain`**.
 
