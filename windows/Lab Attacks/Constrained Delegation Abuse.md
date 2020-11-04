@@ -2,7 +2,7 @@
 
 ⇒ So if you have compromised a **`user account`** / **`system`** on a **`machine`** that is allowed to **`delegate`** to Domain Controller's **`cifs`** / **`ldap`** service we can abuse that to own the domain controller.
 
-- Refer to the lab creation: [Kerberos Constrained Delegation Lab Creation](../Lab%20Creation/Kerberos%20Constrained%20Delegation%20Lab%20Creation)
+- Refer to the lab creation: [Kerberos Constrained Delegation Lab Creation](../Lab%20Creation/Kerberos%20Constrained%20Delegation%20Lab%20Creation.md)
 
 ---
 
