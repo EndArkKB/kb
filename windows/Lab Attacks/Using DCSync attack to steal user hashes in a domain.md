@@ -1,4 +1,4 @@
-# _DCSync
+# Using DCSync attack to steal user hashes in a domain
 
 - Domain: based.local
 
