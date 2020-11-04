@@ -1,4 +1,4 @@
-# Constrained Kerberos Delegation Lab Creation
+# Kerberos Constrained Delegation Lab Creation
 
 Creating a lab for practicing Constrained Kerberos Delegation is very easy.
 
@@ -6,7 +6,7 @@ Creating a lab for practicing Constrained Kerberos Delegation is very easy.
 
 First you will create a new user in your Domain, you can use an existing user also.
 
-![Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled.png](Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled.png)
+![Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled.png](Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled.png)
 
 Give it a username and a password.
 
@@ -14,24 +14,24 @@ Give it a username and a password.
 
 To allow the user to do kerberos delegation, it has to have an SPN first. We are going to add a dummy one: `constrained/` 
 
-![Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%201.png](Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%201.png)
+![Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%201.png](Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%201.png)
 
 # Enabling Delegation for CIFs and LDAP on our DC for our User
 
 Go to the Delegation tab in the User properties and on Add
 
-![Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%202.png](Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%202.png)
+![Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%202.png](Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%202.png)
 
 Next click Users and Computers and Choose your DC and click OK
 
-![Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%203.png](Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%203.png)
+![Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%203.png](Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%203.png)
 
 Select CIFs and LDAP on DC
 
-![Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%204.png](Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%204.png)
+![Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%204.png](Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%204.png)
 
 It should look like this in the end:
 
-![Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%205.png](Constrained%20Kerberos%20Delegation%20Lab%20Creation/Untitled%205.png)
+![Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%205.png](Kerberos%20Constrained%20Delegation%20Lab%20Creation/Untitled%205.png)
 
 Don't forget to set `Trust this user for delegation to specified services only` and then `Use any authentication protocol` also make sure the services are as following, you can now go try the attack!
