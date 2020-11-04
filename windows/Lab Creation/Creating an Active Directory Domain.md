@@ -1,4 +1,4 @@
-# Creating an Active Directory Domain
+# Creating an Active Directory domain
 
 # Setting up DC
 
