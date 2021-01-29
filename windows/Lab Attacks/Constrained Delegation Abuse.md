@@ -36,7 +36,7 @@ get-netuser | ?{$_.cn -like "naqi"} | select msds-allowedtodelegateto  -ExpandPr
 
 ⇒ So to perform this attack we will be using Rubeus.exe tool which is a C# toolset for raw Kerberos interaction and abuses. 
 
-- It hash s4u abuse extension which we can use to perform this attack
+- It has s4u abuse extension which we can use to perform this attack
 
 Tool : [https://github.com/GhostPack/Rubeus](https://github.com/GhostPack/Rubeus)
 
