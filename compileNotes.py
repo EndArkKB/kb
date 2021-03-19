@@ -7,7 +7,8 @@ def log(type, message):
 def moveFile(file, folder):
     directories = [
         "./Windows/Lab Attacks/",
-        "./Windows/Lab Creation/"
+        "./Windows/Lab Creation/",
+        "./Windows/Forensics"
     ]
 
     log("ASK", "In which directory do you want to save in?")
