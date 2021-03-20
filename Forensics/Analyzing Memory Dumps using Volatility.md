@@ -116,7 +116,7 @@ You will get an output like this:
 
 ![Analyzing%20Memory%20Dumps%20using%20Volatility/Untitled%203.png](Analyzing%20Memory%20Dumps%20using%20Volatility/Untitled%203.png)
 
-# 6. Other interesting modules
+# 5. Other interesting modules
 
 There are a ton of interesting modules in Volatility, here are others you can use:
 
